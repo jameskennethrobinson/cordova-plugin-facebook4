@@ -8,11 +8,18 @@
       "android",
       "ios",
       "browser"
-    ]
+    ],
+    "scripts": {
++     "prepublish": "node ./scripts/saveframeworksmetadata.js"
++    }
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jeduan/cordova-plugin-facebook4"
+  },
+  "devDependencies" : {
++   "elementtree": "^0.1.6",
+ +  "glob": "^5.0.6"
   },
   "keywords": [
     "cordova",

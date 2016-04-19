@@ -28,5 +28,6 @@ build/
 local.properties
 proguard/
 
++node_modules/
 .idea
 *.iml
